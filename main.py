@@ -1,12 +1,16 @@
 #Key of * is Shift + 8
-Stars = {1:'* * *', 2:'*   *', 3:'*    ', 4:' * * *'}
+Stars = {1:'* * *', 2:'*   *', 3:'*    ', 4:' * * *', 5:'*    *', 6:'*  **', 7:'  *  ', 8:'    *', 9:'*  *', 10:'* *', 11:'* * * *', 12:'* *      * *', 13:'*  *    *  *', 14:'*   *  *   *', 15:'*     *    *', 16:'*          *',17:'* *     *', 18:'*  *    *', 19:'*   *   *', 20:'*    *  *', 21:'*      * *'}
 A = f'{Stars[1]}\n{Stars[2]}\n{Stars[1]}\n{Stars[2]}\n{Stars[2]}'
 B = f'{Stars[1]}\n{Stars[2]}\n{Stars[1]}\n{Stars[2]}\n{Stars[1]}'
 C = f'{Stars[4]}\n{Stars[3]}\n{Stars[3]}\n{Stars[3]}\n{Stars[4]}'
 D = f'{Stars[1]}\n{Stars[5]}\n{Stars[5]}\n{Stars[5]}\n{Stars[1]}'
 E = f'{Stars[1]}\n{Stars[3]}\n{Stars[1]}\n{Stars[3]}\n{Stars[1]}'
 F = f'{Stars[1]}\n{Stars[3]}\n{Stars[1]}\n{Stars[3]}\n{Stars[3]}'
-BED = f'{B}\n\n\n{E}\n\n\n{D}'
-FED = f'{F}\n\n\n{E}\n\n\n{D}'
-BEAF = f'{B}\n\n\n{E}\n\n\n{A}\n\n\n{F}'
-BEAF = f'{F}\n\n\n{E}\n\n\n{E}\n\n\n{D}'
+G = f'{Stars[1]}\n{Stars[3]}\n{Stars[6]}\n{Stars[2]}\n{Stars[1]}'
+H = f'{Stars[2]}\n{Stars[2]}\n{Stars[1]}\n{Stars[2]}\n{Stars[2]}'
+I = f'{Stars[1]}\n{Stars[7]}\n{Stars[7]}\n{Stars[7]}\n{Stars[1]}'
+J = f'{Stars[1]}\n{Stars[8]}\n{Stars[8]}\n{Stars[2]}\n{Stars[1]}'
+K = f'{Stars[1]}\n{Stars[8]}\n{Stars[8]}\n{Stars[2]}\n{Stars[1]}'
+L = f'{Stars[3]}\n{Stars[3]}\n{Stars[3]}\n{Stars[3]}\n{Stars[11]}'
+M = f'{Stars[12]}\n{Stars[13]}\n{Stars[14]}\n{Stars[15]}\n{Stars[16]}'
+N = f'{Stars[17]}\n{Stars[18]}\n{Stars[19]}\n{Stars[20]}\n{Stars[21]}'
